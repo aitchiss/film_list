@@ -1,4 +1,11 @@
 .weekly-openings-list{
   display: flex;
   flex-direction: column;
+  width: 400px;
+}
+
+.film{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }

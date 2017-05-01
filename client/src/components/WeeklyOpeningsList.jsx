@@ -5,7 +5,7 @@ import MoreInfoFooter from './MoreInfoFooter'
 const WeeklyOpeningsList = (props) => {
   const filmNodes = props.data.map( (film) => {
     return (
-      <Film filmInfoLink={film.filmInfoLink} key={film.id} filmTitle={film.filmTitle}/>
+      <Film filmInfoLink={film.filmInfoLink} key={film.id} filmTitle={film.filmTitle} showTimesLink={film.showTimesLink}/>
     )
   } )
 
