@@ -1,4 +1,5 @@
 import React from 'react'
+import WeeklyOpeningsList from './WeeklyOpeningsList'
 
 
 class WeeklyFilmsBox extends React.Component{
@@ -17,7 +18,7 @@ class WeeklyFilmsBox extends React.Component{
   render() {
     return(
       <div className='weekly-film-box'>
-        WeeklyFilmBox
+        <WeeklyOpeningsList data={this.state.data}/>
       </div>
     )
   }
