@@ -11,6 +11,7 @@ const WeeklyOpeningsList = (props) => {
 
   return(
     <div className="weekly-openings-list">
+    <h4>UK Opening This Week</h4>
       {filmNodes}
       <MoreInfoFooter/>
     </div>
