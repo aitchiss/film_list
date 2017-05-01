@@ -1,0 +1,4 @@
+.weekly-openings-list{
+  display: flex;
+  flex-direction: column;
+}
