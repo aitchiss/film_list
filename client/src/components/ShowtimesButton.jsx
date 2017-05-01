@@ -1,9 +1,18 @@
 import React from 'react'
 
-const ShowtimesButton = (props) =>{
-  return(
-    <button>Get Showtimes</button>
-  )
+class ShowtimesButton extends React.Component{
+
+
+  render(){
+    return(
+      <button onClick={this.showtimesButtonClick.bind(this)}>Get Showtimes</button>
+    )
+  }
+
+  showtimesButtonClick(){
+    console.log('button clicked!')
+  }
+  
 
 }
 
