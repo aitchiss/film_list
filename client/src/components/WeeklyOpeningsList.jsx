@@ -1,5 +1,6 @@
 import React from 'react'
 import Film from './Film'
+import MoreInfoFooter from './MoreInfoFooter'
 
 const WeeklyOpeningsList = (props) => {
   const filmNodes = props.data.map( (film) => {
@@ -11,6 +12,7 @@ const WeeklyOpeningsList = (props) => {
   return(
     <div className="weekly-openings-list">
       {filmNodes}
+      <MoreInfoFooter/>
     </div>
   )
 }
